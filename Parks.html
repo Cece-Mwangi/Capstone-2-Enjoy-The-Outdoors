@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <div class="nav">
+    <a class="active" href="home.html">Home</a>
+    <a href="Mountain.html">Search Mountains</a>
+  </div>
+  <body style="background-color: burlywood">
+    <select id="locSelector">
+      <option value="choose">Search By State</option>
+    </select>
+    <select id="typeSelector" style="align-items: right">
+      <option value="choose">Park Type</option>
+    </select>
+    <h3>National Parks!</h3>
+    <table id="ParkDisplayTbl">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Phone Number</th>
+          <th>Fax Number</th>
+        </tr>
+      </thead>
+      <tbody id="infoTbl"></tbody>
+    </table>
+    <script src="./scripts/locationData.js"></script>
+    <script src="./scripts/parkTypeData.js"></script>
+    <script src="/scripts/nationalParkData.js"></script>
+  </body>
+</html>

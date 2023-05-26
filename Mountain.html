@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <div class="nav" style="background-color: lightgray">
+    <a class="active" href="home.html">Home</a>
+    <a href="Parks.html">Explore The Parks</a>
+  </div>
+  <body style="background-image: url(./images/mtn4.jpg)">
+    <select id="SelectMtn" size="">
+      <option value="choose">Select Mountain</option>
+    </select>
+    <table id="MtnDisplay" style="font-size: larger">
+      <thead>
+        <tr>
+          <th>Mountain Name</th>
+          <th>Description</th>
+          <th>Elevation</th>
+          <th>Effort</th>
+        </tr>
+      </thead>
+      <tbody id="infoTbl" style="font-size: large"></tbody>
+    </table>
+    <div id="imgDisplay" class="center"></div>
+    <script src="./scripts/mountainData.js"></script>
+  </body>
+</html>

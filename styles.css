@@ -1,0 +1,62 @@
+td {
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 1px 5px 1px 5px;
+    text-align: center;
+    word-break: break;
+  }
+
+  img {
+    border: thin solid #520707;
+    padding: 1px;
+
+      border-radius: 50px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%  ;
+  }
+
+
+  .nav{
+    background-color: burlywood;
+      font-weight: bolder;
+text-align: center;  
+padding: 3%;
+font-size: 20px;
+}
+.nav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+h1 {text-align: center;
+  font-size:xx-large;
+  color: aliceblue;
+  }
+
+  p{
+    background-color: papayawhip;
+  }
+
+  .nav a:hover {
+    background-color: burlywood;
+    color: ivory;
+  }
+/* select:first-child{
+  text-indent: 24%;
+  direction: rtl;
+  padding-right: 7px;
+  float: right;
+}
+
+select option{
+  direction: rtl;
+  float: right;
+} */
